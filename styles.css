@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+.logo a {
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+    font-family: helvetica;
+    font-style: bold;
+}
+
+.fullhome {
+    min-height: 100vh;
+    width: 100%;
+    background: black;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+nav {
+    background: #212121;
+    display: flex;
+    padding: 20px 2%;
+    height: 10%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 0.5% 4%;
+    position: relative;
+}
+
+.nav-links ul li a button {
+    background: #212121;
+    color: #2c87f0;
+    border-radius: 7px;
+    width: 125px;
+    height: 50px;
+    border: 2px solid #2c87f0;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.nav-links ul li a {
+    font-family: Helvetica;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-links ul li::after {
+    content: "";
+    color: white;
+    width: 0%;
+    height: 3.5px;
+    background: white;
+    display: block;
+    margin: auto;
+    transition: 0.3s;
+}
+
+.nav-links ul li:hover::after {
+    width: 100%
+}
+
+.sidebar {
+    background: #000000;
+    position: fixed;
+    top: 12%;
+    left: 0;
+    width: 20%;
+    height: 100%;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.sideoptions {
+    margin-top: 10%;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    align-items: center;
+    padding-top: 4%;
+}
+
+.sideoptions:hover {
+    background: #212121;
+    border-radius: 7px;
+}
+
+.list {
+    margin: 2% 0% 0% 23%;
+}
+
+.ind {
+    display: flex;
+}
+
+.left img {
+    width: 100%;
+    height: auto;
+}
+
+.right {
+    margin-left: 3%;
+}
+
+.namebrand {
+    display: flex;
+    justify-content: space-between;
+}
+
+.own {
+    display: flex;
+    justify-content: space-between;
+}
+
+.agerent {
+    display: flex;
+}
+
+.maxrent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rentbutton button {
+    border-radius: 7px;
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: white;
+    width: 8.5rem;
+    height: 4rem;
+    float: right;
+    background: #2c87f0;
+}
